@@ -1,0 +1,51 @@
+* {
+    font-family: fantasy;
+    width: auto;
+    }
+
+body {
+    background-color: rgb(44, 9, 72);
+    padding: 0;
+    text-align: center;
+    color: white;
+}
+
+header{
+    font-size: 50px;
+    font-weight: 600;
+    padding: 0.3em;
+    margin: 0 auto;
+    color: darkcyan;
+}
+
+h1 {
+    color: darkcyan;
+}
+
+h2{
+    color: darkgray;
+}
+
+p {
+    color: darkgray;
+    font-size: 40px;
+}
+
+.instructions {    
+    cursor: pointer;
+    font-size: 45px;
+    padding: 10px;
+}
+
+.info {
+    text-align: center;
+    max-width: 33%;
+}
+
+
+.resultContainer {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+    height: auto;
+}
